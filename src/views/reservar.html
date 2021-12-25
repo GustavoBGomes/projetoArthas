@@ -1,0 +1,110 @@
+{% extends "layout.html" %}
+{% set pageId = "page-reservar" %}
+
+{% block title %}
+    <title>Criar uma reserva</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="styles/reservar.css">
+    <link rel="stylesheet" href="styles/modal.css">
+{% endblock styles %}
+
+{% block content %}
+    {% include "partials/page-header.html"%}
+    <form action="/savepoint" method="POST">
+        <h1>
+            Cadastro de reservas</h1>
+        <fieldset>
+            <legend>
+                <h2>Dados da reserva</h2>
+            </legend>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="name">Nome do hóspede</label>
+                    <input type="text" name="name" required="required">
+                </div>
+                <div class="field">
+                    <label for="date1">Data inicial da reserva</label>
+                    <input type="date" name="date1" required="required">
+                </div>
+                <div class="field">
+                    <label for="date2">Data final da reserva</label>
+                    <input type="date" name="date2" required="required">
+                </div>
+            </div>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="address">Endereço</label>
+                    <input type="text" name="adress" required="required">
+                </div>
+                <div class="field">
+                    <label for="address2">Número/Complemento</label>
+                    <input type="text" name="adress2" required="required">
+                </div>
+            </div>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="state">Estado</label>
+                    <select name="uf" required="required">
+                        <option value="">
+                            Selecione o estado</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="city">Cidade</label>
+                    <select name="city" disabled="disabled" required="required">
+                        <option value="">
+                            Selecione a cidade</option>
+                    </select>
+                    <input type="hidden" name="state">
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Tipo de apartamentos</h2>
+            </legend>
+            <div class="items-grid">
+                <li data-id="Individual">
+                    <span>Individual</span>
+                </li>
+                <li data-id="Duplo Solteiro">
+                    <span>Duplo Solteiro</span>
+                </li>
+                <li data-id="Duplo Casal">
+                    <span>Duplo Casal</span>
+                </li>
+                <li data-id="Triplo Casal">
+                    <span>Triplo Casal</span>
+                </li>
+                <li data-id="Triplo Solteiro">
+                    <span>Triplo Casal</span>
+                </li>
+                <li data-id="Quadrúplo">
+                    <span>Quadrúplo</span>
+                </li>
+            </div>
+            <input type="hidden" name="items">
+        </fieldset>
+        <button type="submit">Cadastrar reserva
+        </button>
+    </form>
+
+{% endblock content %}
+
+{% block modal %}
+    {% if saved %}
+        {% include "partials/reservas.html"%}
+    {% endif %}
+{% endblock modal %}
+
+{% block script %}
+    <script src="../scripts/reservas.js"></script>
+{% endblock script %}

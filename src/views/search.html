@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% set pageId = "page-search" %}
+
+{% block title %}
+    <title>Resultado da pesquisa</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="styles/search.css">
+{% endblock styles %}
+
+{% block content %}
+    {% include "partials/page-header.html"%}
+
+    <main>
+
+        {% if total > 0 %}
+            <h4>
+                <strong>{{ total }}
+                    reserva encontrada</strong>
+                encontrados
+            </h4>
+            <div class="cards">
+                {% for place in places %}
+                    <div class="card">
+                        <h1>Hóspede: {{ place.name }}</h1>
+                        <h2>Check-in: {{ place.date1 }}</h2>
+                        <h2>Check-out: {{ place.date2 }}</h2>
+                        <h3>UHs: {{ place.items }}</h3>
+                       <h2> Endereço do hóspede<p>
+                            {{ place.state }},
+                            {{ place.city }}
+                            <br/>
+                            {{ place.adress }}
+                            <br/>
+                            {{ place.adress2 }}
+                        </p></h2>
+                    </div>
+                {% endfor %}
+
+            </div>
+            {%else%}
+            <h4>
+                <strong>Nenhuma</strong>
+                reserva encontrada</h4>
+        {% endif %}
+
+    </main>
+{% endblock content %}

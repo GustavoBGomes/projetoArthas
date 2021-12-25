@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="182"
+   height="44"
+   viewBox="0 0 182 44"
+   fill="none"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs46" />
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.2582418"
+     inkscape:cx="139.33895"
+     inkscape:cy="43.274873"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <text
+     xml:space="preserve"
+     style="font-size:29.964px;line-height:1.25;font-family:'Sheeping Cats Straight';-inkscape-font-specification:'Sheeping Cats Straight';fill:#000000;fill-opacity:1;stroke-width:0.749103"
+     x="53.199764"
+     y="41.99469"
+     id="text5198-9-8"><tspan
+       sodipodi:role="line"
+       id="tspan5196-1-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'iMWritingQuattroS Nerd Font';-inkscape-font-specification:'iMWritingQuattroS Nerd Font';fill:#000000;fill-opacity:1;stroke-width:0.749103"
+       x="53.199764"
+       y="41.99469">ARTHAS</tspan></text>
+  <path
+     id="rect13126-7-8"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.358035;stroke-linecap:round;stroke-linejoin:round"
+     d="m 41.497235,14.428287 4.347541,2.798858 1.007336,24.877714 h -6.20637 z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect13126-3-0-8"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.440703;stroke-linecap:round;stroke-linejoin:round"
+     d="M 34.094235,1.6427223 41.357021,3.9785554 40.300574,42.104859 H 34.094235 Z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect13126-6-9-4"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.413182;stroke-linecap:round;stroke-linejoin:round"
+     d="m 27.376555,7.6290181 6.290737,-3.156765 -0.0078,37.6998239 h -6.20637 z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect13305-3-3"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.316086;stroke-linecap:round;stroke-linejoin:round"
+     d="M 22.13792,23.204718 27.101435,21.3575 v 20.814577 l -5.782314,-0.126995 z"
+     sodipodi:nodetypes="ccccc" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.233968;stroke-linecap:round;stroke-linejoin:round"
+     id="rect14113-6-1"
+     width="2.3797445"
+     height="5.6298766"
+     x="29.766022"
+     y="36.582546" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.231566;stroke-linecap:round;stroke-linejoin:round"
+     id="rect14113-5-0-4"
+     width="2.3797445"
+     height="5.5149665"
+     x="36.105305"
+     y="36.696869" />
+</svg>

@@ -1,0 +1,81 @@
+#modal {
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 400ms;
+}
+
+#modal .content {
+    color: white;
+}
+
+#modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+#modal .header a {
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/x.svg");
+    display: flex;
+    font-size: 0.01px;
+}
+
+#modal .header h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal form label {
+    font-size: 20px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#modal form .field {
+    display: flex;
+}
+
+#modal form input {
+    background-color: #f0f0f5;
+    padding: 10px 50px;
+    font-size: 20px;
+    color: #000000;
+}
+
+#modal form button{
+    width: 50px;
+    height: 50px;
+   background-color: var(--primary-color);
+   border: 0;
+   
+}
+
+#modal form button:hover {
+    background-color: #000000;
+}
+
+#modal.hide {
+    display: none;
+}
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point h1 {
+    color: white;
+    margin-top: 32px;
+}

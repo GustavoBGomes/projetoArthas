@@ -1,0 +1,37 @@
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-search .cards{
+        grid-template-columns: 1fr;
+    }
+    #page-search .cards img{
+        height: 250px;
+    }
+
+    #page-reservar form .field-group {
+        flex-direction: column;
+    }
+
+    
+
+    #page-reservar form .field-group .field + .field{
+        margin-left: 0;
+    }
+}
+
+@media (max-height: 770px) {
+    #page-home {
+        background-position-y: 158px;
+    }
+}

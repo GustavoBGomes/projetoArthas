@@ -1,0 +1,148 @@
+
+#page-reservar {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-reservar header {
+    margin-top: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-reservar header a {
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color:chocolate;
+    font-size: 25px;
+
+}
+
+#page-reservar header a span{
+    margin-right: 16px;
+    background-image: url(../assets/arrow-left.svg);
+    display: flex;
+    width: 20px;
+    height: 24px;
+}
+
+#page-reservar form {
+    background-color: white;
+    margin: 80px auto; /* alinhamento do lado de fora*/
+    padding: 64px;
+     
+}
+
+#page-reservar form h1 {
+    font-size: 36px;
+}
+
+#page-reservar form fieldset {
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend  {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+form legend h2 {
+    
+    font-size: 24px;
+}
+
+#page-reservar form legend span {
+    color: var(--title-color);
+}
+
+#page-reservar form .field{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+#page-reservar form .field-group {
+    display: flex; 
+}
+
+#page-reservar form input, form select{
+    background-color: #f0f0f5;
+    padding: 16px 24px;
+   
+}
+
+#page-reservar form select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#page-reservar form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#page-reservar form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+#page-reservar form button {
+    width: 260px;
+    height: 56px;
+    background-color: var(--primary-color);
+    
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+    transition: background-color 400ms;
+}
+
+#page-reservar form button:hover {
+    background-color: #2fa4b8;
+}
+
+#page-reservar .items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+#page-reservar .items-grid li {
+    background-color: #f5f5f5;
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    height:  50px;
+    padding:  32px 24px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+#page-reservar .items-grid li span {
+    margin-top: -16px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+#page-reservar .items-grid li.selected {
+    background: #c9c3ff;
+    border: 2px solid #34c6cb
+}
+
+#page-reservar .items-grid li img, .items-grid li span {
+    pointer-events: none;
+}
